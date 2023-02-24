@@ -1,0 +1,21 @@
+import React, { useContext, useState } from "react";
+import { useDeviceLayout } from '../components/utilities/useCustomLayout';
+import DashboardLayout from "../../themes/dashboard/DashboardLayout";
+
+const {{pascalCase name}} = (props) => {
+	return (
+	<>
+		<DashboardLayout>
+			<Grid container spacing={3}></Grid>
+		</DashboardLayout>
+	</>
+	);
+};
+
+const mapStateToProps = (state) => {
+	return {};
+}
+
+export default connect(
+mapStateToProps, {
+})({{pascalCase name}});

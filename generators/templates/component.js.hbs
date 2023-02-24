@@ -1,0 +1,25 @@
+import React, { useState } from "react";
+import { connect } from 'react-redux';
+import { useStyles } from "./styles";
+import { Typography, useMediaQuery } from "@material-ui/core";
+import {
+	Wrapper,
+} from './styles'
+
+const {{pascalCase name}} = (props) => {
+  const matches = useMediaQuery("(max-width:536px)");
+  const classes = useStyles({ matches });
+  return(
+    <Wrapper>
+      <Typography>{{pascalCase name}}</Typography>
+    </Wrapper>  
+);
+}
+
+const mapStateToProps = (state) => {
+	return {};
+}
+
+export default connect(
+	mapStateToProps, {
+})({{pascalCase name}});

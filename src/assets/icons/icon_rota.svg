@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="487" height="272" viewBox="0 0 487 272">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_4614" data-name="Retângulo 4614" width="487" height="272" rx="8" transform="translate(19707 -9735)" fill="#fff" stroke="#ed8b00" stroke-width="2" opacity="0.996"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.502" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_de_máscara_7228" data-name="Grupo de máscara 7228" transform="translate(-19707 9735)" clip-path="url(#clip-path)">
+    <rect id="Retângulo_4610" data-name="Retângulo 4610" width="302" height="24" rx="12" transform="translate(19715 -9598)" fill="#ed8b26" opacity="0.101"/>
+    <text id="Horários_de_funcionamento" data-name="Horários de funcionamento" transform="translate(19723 -9684)" fill="#757575" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Horários de funcionamento</tspan></text>
+    <text id="Ver_mais" data-name="Ver mais" transform="translate(19929 -9685)" fill="#ed8b26" font-size="12" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" text-decoration="underline"><tspan x="0" y="0">Ver mais</tspan></text>
+    <text id="Nessa_loja_você_encontra" data-name="Nessa loja você encontra" transform="translate(19723 -9752)" fill="#757575" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Nessa loja você encontra</tspan></text>
+    <g id="Grupo_10218" data-name="Grupo 10218" transform="translate(18946 -11205)">
+      <g id="Retângulo_4597" data-name="Retângulo 4597" transform="translate(777 1465)" fill="#fff" stroke="#949494" stroke-width="1">
+        <rect width="80" height="24" rx="12" stroke="none"/>
+        <rect x="0.5" y="0.5" width="79" height="23" rx="11.5" fill="none"/>
+      </g>
+      <text id="Drive-thru" transform="translate(784 1482)" fill="#949494" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Drive-thru</tspan></text>
+    </g>
+    <g id="Grupo_10219" data-name="Grupo 10219" transform="translate(18946 -11205)">
+      <g id="Retângulo_4598" data-name="Retângulo 4598" transform="translate(865 1465)" fill="#fff" stroke="#949494" stroke-width="1">
+        <rect width="64" height="24" rx="12" stroke="none"/>
+        <rect x="0.5" y="0.5" width="63" height="23" rx="11.5" fill="none"/>
+      </g>
+      <text id="Delivery" transform="translate(871 1482)" fill="#949494" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Delivery</tspan></text>
+    </g>
+    <g id="Grupo_10220" data-name="Grupo 10220" transform="translate(18946 -11205)">
+      <g id="Retângulo_4599" data-name="Retângulo 4599" transform="translate(937 1465)" fill="#fff" stroke="#949494" stroke-width="1">
+        <rect width="132" height="24" rx="12" stroke="none"/>
+        <rect x="0.5" y="0.5" width="131" height="23" rx="11.5" fill="none"/>
+      </g>
+      <text id="Retirada_no_balcão" data-name="Retirada no balcão" transform="translate(945 1482)" fill="#949494" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Retirada no balcão</tspan></text>
+    </g>
+    <g id="Grupo_10221" data-name="Grupo 10221" transform="translate(19086 -11205)">
+      <g id="Retângulo_4599-2" data-name="Retângulo 4599" transform="translate(937 1465)" fill="#fff" stroke="#949494" stroke-width="1">
+        <rect width="88" height="24" rx="12" stroke="none"/>
+        <rect x="0.5" y="0.5" width="87" height="23" rx="11.5" fill="none"/>
+      </g>
+      <text id="Playground" transform="translate(945 1482)" fill="#949494" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Playground</tspan></text>
+    </g>
+    <text id="Balcão" transform="translate(19942 -9658)" fill="#949494" font-size="14" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="0">Balcão</tspan></text>
+    <text id="Delivery-2" data-name="Delivery" transform="translate(19813 -9658)" fill="#949494" font-size="14" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="0">Delivery</tspan></text>
+    <text id="Sexta" transform="translate(19723 -9535)" fill="#949494" font-size="14" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="0">Sexta</tspan></text>
+    <text id="Sábado" transform="translate(19723 -9512)" fill="#949494" font-size="14" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="0">Sábado</tspan></text>
+    <text id="Domingo" transform="translate(19723 -9489)" fill="#949494" font-size="14" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="0">Domingo</tspan></text>
+    <text id="Segunda" transform="translate(19723 -9627)" fill="#949494" font-size="14" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="0">Segunda</tspan></text>
+    <text id="Terça" transform="translate(19723 -9604)" fill="#949494" font-size="14" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="0">Terça</tspan></text>
+    <text id="Quarta" transform="translate(19723 -9581)" fill="#949494" font-size="14" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="0">Quarta</tspan></text>
+    <text id="Quinta" transform="translate(19723 -9558)" fill="#949494" font-size="14" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="0">Quinta</tspan></text>
+    <text id="_10:00_-_22:00" data-name="10:00 - 22:00" transform="translate(19795 -9581)" fill="#ed8b26" font-size="14" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="0">10:00 - 22:00</tspan></text>
+    <text id="_10:00_-_22:00-2" data-name="10:00 - 22:00" transform="translate(19795 -9604)" fill="#949494" font-size="14" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">10:00 - 22:00</tspan></text>
+    <text id="_10:00_-_22:00-3" data-name="10:00 - 22:00" transform="translate(19795 -9627)" fill="#949494" font-size="14" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">10:00 - 22:00</tspan></text>
+    <text id="_10:00_-_22:00-4" data-name="10:00 - 22:00" transform="translate(19795 -9558)" fill="#949494" font-size="14" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">10:00 - 22:00</tspan></text>
+    <text id="_10:00_-_22:00-5" data-name="10:00 - 22:00" transform="translate(19795 -9535)" fill="#949494" font-size="14" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">10:00 - 22:00</tspan></text>
+    <text id="_10:00_-_22:00-6" data-name="10:00 - 22:00" transform="translate(19795 -9512)" fill="#949494" font-size="14" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">10:00 - 22:00</tspan></text>
+    <text id="_10:00_-_22:00-7" data-name="10:00 - 22:00" transform="translate(19795 -9489)" fill="#949494" font-size="14" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">10:00 - 22:00</tspan></text>
+    <text id="_10:00_-_20:00" data-name="10:00 - 20:00" transform="translate(19920 -9581)" fill="#ed8b26" font-size="14" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="0">10:00 - 20:00</tspan></text>
+    <text id="_10:00_-_20:00-2" data-name="10:00 - 20:00" transform="translate(19920 -9604)" fill="#949494" font-size="14" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">10:00 - 20:00</tspan></text>
+    <text id="_10:00_-_20:00-3" data-name="10:00 - 20:00" transform="translate(19920 -9627)" fill="#949494" font-size="14" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">10:00 - 20:00</tspan></text>
+    <text id="_10:00_-_20:00-4" data-name="10:00 - 20:00" transform="translate(19920 -9558)" fill="#949494" font-size="14" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">10:00 - 20:00</tspan></text>
+    <text id="_10:00_-_20:00-5" data-name="10:00 - 20:00" transform="translate(19920 -9535)" fill="#949494" font-size="14" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">10:00 - 20:00</tspan></text>
+    <text id="_10:00_-_20:00-6" data-name="10:00 - 20:00" transform="translate(19920 -9512)" fill="#949494" font-size="14" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">10:00 - 20:00</tspan></text>
+    <text id="_10:00_-_20:00-7" data-name="10:00 - 20:00" transform="translate(19920 -9489)" fill="#949494" font-size="14" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">10:00 - 20:00</tspan></text>
+    <rect id="Retângulo_4611" data-name="Retângulo 4611" width="8" height="48" rx="4" transform="translate(20172 -9601)" fill="#cecece"/>
+    <rect id="Retângulo_4612" data-name="Retângulo 4612" width="457" height="16" transform="translate(19723 -9545)" fill="url(#linear-gradient)"/>
+    <rect id="Retângulo_4613" data-name="Retângulo 4613" width="487" height="66" transform="translate(19706 -9529)" fill="#fff"/>
+    <g id="Grupo_10222" data-name="Grupo 10222" transform="translate(19259 -10972)">
+      <rect id="Retângulo_4267" data-name="Retângulo 4267" width="128" height="32" rx="8" transform="translate(790 1461)" fill="#ed8b00"/>
+      <path id="Caminho_6380" data-name="Caminho 6380" d="M76.59,76.117v3.226H74.405V77.961c0-.928,0-1.856,0-2.784,0-.874.41-1.3,1.26-1.31,1.524-.01,3.048,0,4.571,0h.584V71.343L84.4,75.019l-3.549,3.632V76.117Z" transform="translate(728.596 1401.657)" fill="#fff"/>
+      <text id="como_chegar_" data-name="como chegar " transform="translate(821 1482)" fill="#fff" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">como chegar </tspan></text>
+    </g>
+    <line id="Linha_711" data-name="Linha 711" x2="455" transform="translate(19722 -9527)" fill="none" stroke="#cecece" stroke-width="1"/>
+    <g id="Grupo_10227" data-name="Grupo 10227" transform="translate(19123 -10972)">
+      <rect id="Retângulo_4267-2" data-name="Retângulo 4267" width="128" height="32" rx="8" transform="translate(790 1461)" fill="#ed8b00"/>
+      <text id="pedir_agora_" data-name="pedir agora!" transform="translate(827 1482)" fill="#fff" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">pedir agora!</tspan></text>
+      <g id="Grupo_10225" data-name="Grupo 10225" transform="translate(798 1468)">
+        <g id="Grupo_9858" data-name="Grupo 9858" transform="matrix(0.995, -0.105, 0.105, 0.995, 0, 1.197)">
+          <path id="Caminho_6763" data-name="Caminho 6763" d="M.4.508C.017,2.5.649,2.832.4,5.79s-.769,4.74,0,5.528,3.074-.734,5.736-.4,4.536.765,5.1,0-.185-1.4-.339-4.7a29.111,29.111,0,0,1,.339-5.71c.046-.947-2.542-.345-4.137,0S.711-.525.4.508" transform="translate(0 4.343)" fill="#fff" stroke="#fff" stroke-width="1"/>
+          <path id="Caminho_6764" data-name="Caminho 6764" d="M.061,5.27C.094,2.385-.714.132,2.688,0S5.94,4.778,5.55,5.569" transform="translate(2.609 0)" fill="none" stroke="#fff" stroke-width="1.5"/>
+          <rect id="Retângulo_4381" data-name="Retângulo 4381" width="3.875" height="3.875" rx="1.938" transform="translate(3.876 7.751)" fill="#ed8b26"/>
+        </g>
+        <g id="Grupo_9864" data-name="Grupo 9864" transform="matrix(0.998, 0.07, -0.07, 0.998, 15.042, 1.801)">
+          <path id="Caminho_6765" data-name="Caminho 6765" d="M.185.819c-.62,1.122.489,9.058.883,9.235a10.8,10.8,0,0,0,3.559,0c.668-.215,2.226-8.837,1.4-9.519S.8-.3.185.819Z" transform="translate(0 3.687)" fill="#fff"/>
+          <rect id="Retângulo_4380" data-name="Retângulo 4380" width="1.16" height="5.801" rx="0.58" transform="matrix(0.985, 0.174, -0.174, 0.985, 4.128, 0)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+import {
+	mapDefault,
+} from "../mappers/{{name}}";
+
+export const actionTypes = {
+	SET_DEFAULT: 'SET_DEFAULT',
+}
+
+export const setDefault = (default) => async (dispatch) => {
+	dispatch({
+		type: actionTypes.SET_DEFAULT,
+		payload: default
+	})
+}

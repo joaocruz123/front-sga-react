@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Graviola Soft';
+  src: local('Graviola Soft Regular'), 
+  url(./assets/fonts/graviola_soft_regular.otf) format('opentype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+body {
+  margin: 0;
+  font-family: 'Graviola Soft' !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.Snackbar_snackbar-wrapper__ocbPJ{
+  z-index: 1306 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button:focus {
+	outline: thin dotted;
+	outline: 0px auto -webkit-focus-ring-color;
+	outline-offset: 0px;
+}
