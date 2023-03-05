@@ -1,90 +1,260 @@
-import { Button, Grid, Paper, TextField } from "@mui/material";
-import React, { useContext, useLayoutEffect, useState } from "react";
+import { Divider, Grid, Paper } from "@mui/material";
+import React, { useState } from "react";
 import { connect } from "react-redux";
 import { CustomInput } from "../../components/Common/CustomInput/CustomInput";
-import InputMask from "../../components/InputMask/InputMask";
+import CustomDatePicker from "../../components/CustomDatePicker";
+import CustomSelect from "../../components/CustomSelect/CustomSelect";
 import DashboardLayout from "../../themes/dashboard/DashboardLayout";
 import Title from "../../themes/dashboard/Title";
 
+const sexList = [
+	{
+		id: 'masculino',
+		nome: 'Masculino'
+	}, {
+		id: 'feminino',
+		nome: 'Feminino'
+	}
+]
+
 const Member = (props) => {
-    const [name, setName] = useState("");
-    const [email, setEmail] = useState("");
+	const [name, setName] = useState("");
+	const [email, setEmail] = useState("");
+	const [cpf, setCpf] = useState("");
+	const [sex, setSex] = useState("");
+	const [phone, setPhone] = useState("");
+	const [cellPhone, setCellPhone] = useState("");
+	const [birthDate, setbirthDate] = useState("");
 
-    return (
-        <>
-            <DashboardLayout>
-                <Grid container spacing={3}>
-                    <Grid item xs={12} md={12} lg={12}>
-                        <Title>Cadastrar Membro</Title>
-                        <Paper
-                            sx={{
-                                p: 2,
-                                display: 'flex',
-                                flexDirection: 'column',
-                            }}
-                        >
-                            <Grid container spacing={2}>
-                                <Grid item xs={12} md={6} lg={6}>
-                                    <CustomInput
-                                        margin={"normal"}
-                                        required
-                                        fullWidth
-                                        id={"name"}
-                                        label={"Nome"}
-                                        name={"name"}
-                                        autoComplete={"name"}
-                                        autoFocus
-                                        inputtype={"input"}
-                                        size={'small'}
-                                        variant={"standard"}
-                                        value={name}
-                                        onChange={(e) => setName(e.target.value)}
-                                    />
-                                </Grid>
-                                <Grid item xs={12} md={6} lg={6}>
-                                    <CustomInput
-                                        margin={"normal"}
-                                        required
-                                        fullWidth
-                                        id={"email"}
-                                        label={"E-mail"}
-                                        name={"email"}
-                                        autoComplete={"email"}
-                                        autoFocus
-                                        inputtype={"input"}
-                                        size={'small'}
-                                        variant={"standard"}
-                                        value={email}
-                                        onChange={(e) => setEmail(e.target.value)}
-                                    />
-                                </Grid>
-                                <Grid item xs={12} md={6} lg={6}>
+	const handleSexChange = async (event) => {
+		setSex(event.target.value);
+	};
 
-                                    <TextField
-                                        label="react-number-format"
-                                        // value={values.numberformat}
-                                        // onChange={handleChange}
-                                        name="numberformat"
-                                        id="formatted-numberformat-input"
-                                        InputProps={{
-                                            inputComponent: InputMask,
-                                        }}
-                                        variant="standard"
-                                    />
-                                </Grid>
-                            </Grid>
-                        </Paper>
-                    </Grid>
-                </Grid>
-            </DashboardLayout>
-        </>
-    );
+	return (
+		<>
+			<DashboardLayout>
+				<Grid container spacing={3}>
+					<Grid item xs={12} md={12} lg={12}>
+						<Title>Cadastrar Membro</Title>
+						<Paper
+							sx={{
+								p: 2,
+								display: 'flex',
+								flexDirection: 'column',
+							}}
+						>
+							<Divider variant="middle">Dados Pessoais</Divider>
+							<Grid container spacing={2} sx={{ marginBottom: "2rem"}}>
+								<Grid item xs={12} md={4} lg={4}>
+									<CustomInput
+										margin={"normal"}
+										required
+										fullWidth
+										id={"name"}
+										label={"Nome"}
+										name={"name"}
+										autoComplete={"name"}
+										inputtype={"input"}
+										size={'small'}
+										variant={"standard"}
+										value={name}
+										onChange={(e) => setName(e.target.value)}
+									/>
+								</Grid>
+								<Grid item xs={12} md={4} lg={4}>
+									<CustomInput
+										margin={"normal"}
+										required
+										fullWidth
+										id={"email"}
+										label={"E-mail"}
+										name={"email"}
+										autoComplete={"email"}
+										inputtype={"input"}
+										size={'small'}
+										variant={"standard"}
+										value={email}
+										onChange={(e) => setEmail(e.target.value)}
+									/>
+								</Grid>
+								<Grid item xs={12} md={4} lg={4}>
+									<CustomInput
+										margin={"normal"}
+										label="CPF"
+										required
+										fullWidth
+										size={'small'}
+										value={cpf}
+										onChange={(e) => setCpf(e.target.value)}
+										name="cpf"
+										id="cpf"
+										maskType={"cpf"}
+										autoComplete={"email"}
+										inputtype={"mask"}
+										variant="standard"
+									/>
+								</Grid>
+								<Grid item xs={12} md={4} lg={4}>
+									<CustomSelect
+										variant={"standard"}
+										margin={"normal"}
+										labelId={"sex"}
+										labelText={"Sexo"}
+										value={sex}
+										handleChange={handleSexChange}
+										itens={sexList}
+									/>
+								</Grid>
+								<Grid item xs={12} md={4} lg={4}>
+									<CustomInput
+										margin={"normal"}
+										label="Telefone"
+										required
+										fullWidth
+										size={'small'}
+										value={phone}
+										onChange={(e) => setPhone(e.target.value)}
+										name="phone"
+										id="phone"
+										maskType={"phone"}
+										autoComplete={"phone"}
+										inputtype={"mask"}
+										variant="standard"
+									/>
+								</Grid>
+								<Grid item xs={12} md={4} lg={4}>
+									<CustomInput
+										margin={"normal"}
+										label="Celular"
+										required
+										fullWidth
+										size={'small'}
+										value={cellPhone}
+										onChange={(e) => setCellPhone(e.target.value)}
+										name="cellPhone"
+										id="cellPhone"
+										maskType={"phone"}
+										autoComplete={"cellPhone"}
+										inputtype={"mask"}
+										variant="standard"
+									/>
+								</Grid>
+								<Grid item xs={12} md={4} lg={4}>
+									<CustomDatePicker
+										value={birthDate}
+										onChange={(e) => setbirthDate(e.target.value)}
+									/>
+								</Grid>
+							</Grid>
+							<Divider variant="middle">Dados de endereço</Divider>
+							<Grid container spacing={2} sx={{ marginBottom: "2rem"}}>
+								<Grid item xs={12} md={4} lg={4}>
+									<CustomInput
+										margin={"normal"}
+										required
+										fullWidth
+										id={"name"}
+										label={"Nome"}
+										name={"name"}
+										autoComplete={"name"}
+										inputtype={"input"}
+										size={'small'}
+										variant={"standard"}
+										value={name}
+										onChange={(e) => setName(e.target.value)}
+									/>
+								</Grid>
+								<Grid item xs={12} md={4} lg={4}>
+									<CustomInput
+										margin={"normal"}
+										required
+										fullWidth
+										id={"email"}
+										label={"E-mail"}
+										name={"email"}
+										autoComplete={"email"}
+										inputtype={"input"}
+										size={'small'}
+										variant={"standard"}
+										value={email}
+										onChange={(e) => setEmail(e.target.value)}
+									/>
+								</Grid>
+								<Grid item xs={12} md={4} lg={4}>
+									<CustomInput
+										margin={"normal"}
+										label="CPF"
+										required
+										fullWidth
+										size={'small'}
+										value={cpf}
+										onChange={(e) => setCpf(e.target.value)}
+										name="cpf"
+										id="cpf"
+										maskType={"cpf"}
+										autoComplete={"email"}
+										inputtype={"mask"}
+										variant="standard"
+									/>
+								</Grid>
+								<Grid item xs={12} md={4} lg={4}>
+									<CustomSelect
+										variant={"standard"}
+										margin={"normal"}
+										labelId={"sex"}
+										labelText={"Sexo"}
+										value={sex}
+										handleChange={handleSexChange}
+										itens={sexList}
+									/>
+								</Grid>
+								<Grid item xs={12} md={4} lg={4}>
+									<CustomInput
+										margin={"normal"}
+										label="Telefone"
+										required
+										fullWidth
+										size={'small'}
+										value={phone}
+										onChange={(e) => setPhone(e.target.value)}
+										name="phone"
+										id="phone"
+										maskType={"phone"}
+										autoComplete={"phone"}
+										inputtype={"mask"}
+										variant="standard"
+									/>
+								</Grid>
+								<Grid item xs={12} md={4} lg={4}>
+									<CustomInput
+										margin={"normal"}
+										label="Celular"
+										required
+										fullWidth
+										size={'small'}
+										value={cellPhone}
+										onChange={(e) => setCellPhone(e.target.value)}
+										name="cellPhone"
+										id="cellPhone"
+										maskType={"phone"}
+										autoComplete={"cellPhone"}
+										inputtype={"mask"}
+										variant="standard"
+									/>
+								</Grid>
+							</Grid>
+						</Paper>
+					</Grid>
+				</Grid>
+			</DashboardLayout>
+		</>
+	);
 };
 
 const mapStateToProps = (state) => {
-    return {};
+	return {};
 }
 
 export default connect(
-    mapStateToProps, {
+	mapStateToProps, {
 })(Member);
