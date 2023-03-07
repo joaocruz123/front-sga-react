@@ -24,7 +24,7 @@ const Member = (props) => {
 	const [sex, setSex] = useState("");
 	const [phone, setPhone] = useState("");
 	const [cellPhone, setCellPhone] = useState("");
-	const [birthDate, setbirthDate] = useState("");
+	const [birthDate, setbirthDate] = useState(null);
 
 	const handleSexChange = async (event) => {
 		setSex(event.target.value);
@@ -44,8 +44,8 @@ const Member = (props) => {
 							}}
 						>
 							<Divider variant="middle">Dados Pessoais</Divider>
-							<Grid container spacing={2} sx={{ marginBottom: "2rem"}}>
-								<Grid item xs={12} md={4} lg={4}>
+							<Grid container spacing={2} sx={{ marginBottom: "2rem" }}>
+								<Grid item xs={12} md={6} lg={6}>
 									<CustomInput
 										margin={"normal"}
 										required
@@ -56,12 +56,12 @@ const Member = (props) => {
 										autoComplete={"name"}
 										inputtype={"input"}
 										size={'small'}
-										variant={"standard"}
+										variant={"outlined"}
 										value={name}
 										onChange={(e) => setName(e.target.value)}
 									/>
 								</Grid>
-								<Grid item xs={12} md={4} lg={4}>
+								<Grid item xs={12} md={6} lg={6}>
 									<CustomInput
 										margin={"normal"}
 										required
@@ -72,7 +72,7 @@ const Member = (props) => {
 										autoComplete={"email"}
 										inputtype={"input"}
 										size={'small'}
-										variant={"standard"}
+										variant={"outlined"}
 										value={email}
 										onChange={(e) => setEmail(e.target.value)}
 									/>
@@ -91,14 +91,15 @@ const Member = (props) => {
 										maskType={"cpf"}
 										autoComplete={"email"}
 										inputtype={"mask"}
-										variant="standard"
+										variant="outlined"
 									/>
 								</Grid>
 								<Grid item xs={12} md={4} lg={4}>
 									<CustomSelect
-										variant={"standard"}
+										variant={"outlined"}
 										margin={"normal"}
 										labelId={"sex"}
+										size={'small'}
 										labelText={"Sexo"}
 										value={sex}
 										handleChange={handleSexChange}
@@ -119,7 +120,7 @@ const Member = (props) => {
 										maskType={"phone"}
 										autoComplete={"phone"}
 										inputtype={"mask"}
-										variant="standard"
+										variant="outlined"
 									/>
 								</Grid>
 								<Grid item xs={12} md={4} lg={4}>
@@ -136,18 +137,21 @@ const Member = (props) => {
 										maskType={"phone"}
 										autoComplete={"cellPhone"}
 										inputtype={"mask"}
-										variant="standard"
+										variant="outlined"
 									/>
 								</Grid>
 								<Grid item xs={12} md={4} lg={4}>
 									<CustomDatePicker
+										label={"Data de Nascimento"}
 										value={birthDate}
-										onChange={(e) => setbirthDate(e.target.value)}
+										size={'small'}
+										margin={"normal"}
+										onChange={(newValue) => setbirthDate(newValue)}
 									/>
 								</Grid>
 							</Grid>
 							<Divider variant="middle">Dados de endereço</Divider>
-							<Grid container spacing={2} sx={{ marginBottom: "2rem"}}>
+							<Grid container spacing={2} sx={{ marginBottom: "2rem" }}>
 								<Grid item xs={12} md={4} lg={4}>
 									<CustomInput
 										margin={"normal"}

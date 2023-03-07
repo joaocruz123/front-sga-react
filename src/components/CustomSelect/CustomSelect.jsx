@@ -2,9 +2,9 @@ import { FormControl, InputLabel, MenuItem, Select } from "@mui/material";
 import React from "react";
 
 const CustomSelect = (props) => {
-	const { id, labelId, labelText, value, handleChange, itens, variant, margin } = props;
+	const { id, labelId, labelText, value, handleChange, itens, variant, margin, size } = props;
 	return (
-		<FormControl variant={variant} fullWidth margin={margin}>
+		<FormControl variant={variant} fullWidth margin={margin} size={size} >
 			<InputLabel id={id}>{labelText}</InputLabel>
 			<Select
 				labelId={labelId}
